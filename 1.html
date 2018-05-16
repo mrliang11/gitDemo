@@ -11,6 +11,7 @@
     <h1>hello world
     </h1>
     <div>liangge</div>
+    <input type="text">
     <script>
         // 1.git remote add origin 地址   关联远程仓库 origin给远端的一个名字
         // 2.git remote rename origin master 给远端仓库改个名字
@@ -23,7 +24,11 @@
         // git reset --hard HEAD~1 回推几个版本 就在后面填几个数字
         // git reset --mixed HEAD^ 把暂存区保存到上个版本 但是内容不变 mixed保存到add之前
         // git reset --soft HEAD^ 回到上个操作 commit之前
-        // git diff 查看与暂存区的不同 git diff --cached查看与上一次暂存区内的不同
+        // git diff 查看与暂存区的不同 git diff --cached查看是暂存区与我们本地目录最近版本的区别
+        // git diff HEAD工作区与最后一次提交的目录的差别
+        // git branch查看分支
+        // git branch dev 创建分支
+        // git checkout dev 切换分支
     </script>
 </body>
 </html>
